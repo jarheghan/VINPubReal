@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VINPub", "VINPub\VINPub.csproj", "{6EEECE91-FF00-4AEF-92C9-A309A7CF5336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VINPub.Task", "VINPub.Task\VINPub.Task.csproj", "{7E9D265B-A6F3-4CC1-A3C5-45927BE98BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VINPub.Test", "VINPub.Test\VINPub.Test.csproj", "{03E005C9-74BD-4FA0-8696-8313EB349666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{6EEECE91-FF00-4AEF-92C9-A309A7CF5336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EEECE91-FF00-4AEF-92C9-A309A7CF5336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EEECE91-FF00-4AEF-92C9-A309A7CF5336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9D265B-A6F3-4CC1-A3C5-45927BE98BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9D265B-A6F3-4CC1-A3C5-45927BE98BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9D265B-A6F3-4CC1-A3C5-45927BE98BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9D265B-A6F3-4CC1-A3C5-45927BE98BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E005C9-74BD-4FA0-8696-8313EB349666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E005C9-74BD-4FA0-8696-8313EB349666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E005C9-74BD-4FA0-8696-8313EB349666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E005C9-74BD-4FA0-8696-8313EB349666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
