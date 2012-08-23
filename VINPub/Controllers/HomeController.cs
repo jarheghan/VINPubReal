@@ -16,6 +16,7 @@ namespace VINPub.Controllers
         }
         public ActionResult Index()
         {
+            _logger.LogInfo("Hey, Just testing to see if it is working!!");
             ViewBag.Message = "Welcome to ASP.NET MVC!";
 
             return View();

@@ -11,6 +11,7 @@ namespace VINPub.App_Start
     using Ninject;
     using Ninject.Web.Common;
     using VINPub.Infrastructure.Logging;
+    using System.Web.Mvc;
 
     public static class NinjectWebCommon 
     {
@@ -24,6 +25,7 @@ namespace VINPub.App_Start
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
             bootstrapper.Initialize(CreateKernel);
+           // GlobalConfiguration.Configuration.ServiceResolver.SetResolver(DependencyResolver.Current.ToServiceResolver());
         }
         
         /// <summary>
